@@ -1,0 +1,5 @@
+{
+    projects: {
+        'eslint-config': ''
+    }
+}
