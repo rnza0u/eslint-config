@@ -1,5 +1,6 @@
 {
+    name: 'eslint-config',
     projects: {
-        'eslint-config': ''
+        'eslint-config': '.'
     }
 }
