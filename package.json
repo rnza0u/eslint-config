@@ -1,6 +1,6 @@
 {
   "name": "rnz-eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal ESLint config",
   "type": "module",
   "repository": {
@@ -10,6 +10,9 @@
   "scripts": {
     "build": "tsc"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "rnz",
   "license": "UNLICENSED",
