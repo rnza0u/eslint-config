@@ -13,6 +13,7 @@
       cache: {
         invalidateWhen: {
           inputChanges: ['package.json', 'package-lock.json'],
+          filesMissing: ['node_modules']
         },
       },
     },
@@ -40,6 +41,7 @@
         path: 'npm-publish',
         format: 'Git',
       },
+      options: {},
       dependencies: ['build'],
     },
     clean: {
