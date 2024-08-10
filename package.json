@@ -1,9 +1,8 @@
 {
   "name": "rnz-eslint-config",
   "version": "1.0.0",
-  "description": "ESLint config for this monorepo",
+  "description": "My personal ESLint config",
   "type": "module",
-  "private": true,
   "repository": {
     "url": "git+https://github.com/rnza0u/main.git",
     "directory": "libs/js/eslint-config"
