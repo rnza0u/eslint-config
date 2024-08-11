@@ -7,10 +7,7 @@ export default tseslint.config(
     {
         ...eslint.configs.recommended,
         languageOptions: {
-            globals: {
-                ..._globals.browser,
-                ..._globals.node
-            },
+            globals: _globals.browser,
             parserOptions: {
                 ecmaFeatures: {
                     jsx: true

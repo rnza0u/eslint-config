@@ -1,6 +1,7 @@
 {
-    name: 'eslint-config',
+    name: 'eslint-configs',
     projects: {
-        'eslint-config': '.'
+        browser: 'browser',
+        node: 'node'
     }
 }
