@@ -29,7 +29,7 @@
       },
       cache: {
         invalidateWhen: {
-          inputChanges: ['src/**'],
+          inputChanges: ['src/**', 'tsconfig.json'],
           outputChanges: ['dist/**'],
         },
       },
