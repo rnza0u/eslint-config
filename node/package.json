@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rnz-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My personal ESLint config for Node.js",
   "type": "module",
   "main": "dist/index.js",
