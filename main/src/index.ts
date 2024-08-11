@@ -3,9 +3,7 @@ import tseslint from 'typescript-eslint'
 import stylistic from '@stylistic/eslint-plugin'
 
 export default tseslint.config(
-    {
-        ...eslint.configs.recommended,
-    },
+    eslint.configs.recommended,
     ...tseslint.configs.recommended,
     ...tseslint.configs.strict,
     {
@@ -14,11 +12,8 @@ export default tseslint.config(
         }
     },
     {
-
         plugins: {
-            /* eslint-disable */
-            '@stylistic': stylistic as any
-            /* eslint-enable */
+            '@stylistic': stylistic.default
         },
         rules: {
             '@stylistic/indent': ['error', 4],

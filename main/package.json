@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rnz-main",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal ESLint config for all environments",
   "type": "module",
   "main": "dist/index.js",
