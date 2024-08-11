@@ -1,12 +1,12 @@
 {
-  "name": "eslint-config-rnz-web",
-  "version": "1.0.1",
-  "description": "My personal ESLint config for the web",
+  "name": "eslint-config-rnz-main",
+  "version": "1.0.0",
+  "description": "My personal ESLint config for all environments",
   "type": "module",
   "main": "dist/index.js",
   "repository": {
-    "url": "git+https://github.com/rnza0u/eslint-config.git",
-    "directory": "browser"
+    "url": "git+https://github.com/rnza0u/eslint-config",
+    "directory": "main"
   },
   "scripts": {
     "build": "tsc"
@@ -16,14 +16,12 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@types/eslint__js": "^8.42.3",
-    "@types/node": "^20.14.9",
     "typescript": "^5.5.4"
   },
   "dependencies": {
     "@stylistic/eslint-plugin": "^2.3.0",
     "@eslint/js": "^9.9.0",
-    "typescript-eslint": "^8.0.1",
-    "globals": "^15.6.0"
+    "typescript-eslint": "^8.0.1"
   },
   "peerDependencies": {
     "eslint": ">=8.57.0"

@@ -1,7 +1,6 @@
 {
     name: 'eslint-configs',
     projects: {
-        browser: 'browser',
-        node: 'node'
+        [name]: name for name in ['main', 'browser', 'node']
     }
 }
