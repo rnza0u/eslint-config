@@ -13,7 +13,7 @@ export default tseslint.config(
     },
     {
         plugins: {
-            '@stylistic': stylistic.default
+            '@stylistic': stylistic
         },
         rules: {
             '@stylistic/indent': ['error', 4],
